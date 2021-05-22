@@ -1,0 +1,58 @@
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\appsettings.json
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.StaticWebAssets.xml
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.exe
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.deps.json
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.runtimeconfig.json
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.runtimeconfig.dev.json
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\ref\Blazor app tutorial.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.pdb
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.Views.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\bin\Debug\net5.0\Blazor app tutorial.Views.pdb
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.csprojAssemblyReference.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.AssemblyInfoInputs.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.AssemblyInfo.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.csproj.CoreCompileInputs.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorComponent.input.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Pages\Movie.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorComponent.output.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\RazorDeclaration\Blazor app tutorial.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.TagHelpers.input.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.TagHelpers.output.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorCoreGenerate.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Pages\Movie.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorAssemblyInfo.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorAssemblyInfo.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\staticwebassets\Blazor app tutorial.StaticWebAssets.Manifest.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\staticwebassets\Blazor app tutorial.StaticWebAssets.xml
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\scopedcss\bundle\Blazor app tutorial.styles.css
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\scopedcss\projectbundle\Blazor app tutorial.bundle.scp.css
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorTargetAssemblyInfo.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.RazorTargetAssemblyInfo.cs
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.Views.pdb
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\ref\Blazor app tutorial.dll
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.pdb
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.genruntimeconfig.cache
+C:\Users\Borislav\Documents\Blazor\Blazor app tutorial\obj\Debug\net5.0\Blazor app tutorial.csproj.CopyComplete
