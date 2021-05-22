@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wV+HTa1mZdTXAEFkvxje2mwNcIL+7tqoXPV7Q9zza951gnKFv/t1K2ASuiuxJ2axzVcSgHos+lC6Ya5iE8Ktng==",
+  "dgSpecHash": "OQL9TXzkKnV/mID5uRgxwxAgrH08n83qWnFw9JbSQeC6FXxvjZePbvtkN4ON7WOqwY2b9P+G4pucJSe/6pDraw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\Blazor app tutorial.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Cata Bastanu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.4\\microsoft.netcore.app.host.win-x64.5.0.4.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
