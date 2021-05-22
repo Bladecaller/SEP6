@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj": {}
+    "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\Blazor app tutorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj": {
+    "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\Blazor app tutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
+        "projectUniqueName": "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\Blazor app tutorial.csproj",
         "projectName": "Blazor app tutorial",
-        "projectPath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
-        "packagesPath": "C:\\Users\\Borislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\obj\\",
+        "projectPath": "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\Blazor app tutorial.csproj",
+        "packagesPath": "C:\\Users\\Cata Bastanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Borislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Cata Bastanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.4, 5.0.4]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -55,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
         }
       }
     }

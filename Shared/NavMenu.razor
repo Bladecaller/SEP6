@@ -1,34 +1,43 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">Blazor app tutorial</a>
+﻿<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="">MAYBE LOGO HERE</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
-</div>
-
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <ul class="nav flex-column">
-        <li class="nav-item px-3">
+    <div class="@NavMenuCssClass navbar-collapse">
+        <a style="color:rebeccapurple"
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Log in
+                <span class="oi oi-monitor" style="color:red" aria-hidden="true"></span> <span style="color:red">Movies</span>
             </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="movie">
-                <span class="oi oi-plus" aria-hidden="true"></span> Movie
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="actor">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Actor
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-        <NavLink class="nav-link" href="topList">
-            <span class="oi oi-list-rich" aria-hidden="true"></span> Top list
-        </NavLink>
-        </li>
-    </ul>
-</div>
+            </a>
+        <a
+                <NavLink class="nav-link" href="counter">
+                    <span class="oi oi-star" style="color:red" aria-hidden="true"></span> <span style="color:red">Actors</span>
+                </NavLink>
+            </a>
+        <a
+                <NavLink class="nav-link" href="fetchdata">
+                    <span class="oi oi-list-rich"style="color:red" aria-hidden="true"></span> <span style="color:red">Favorites</span>
+                </NavLink>
+            </a>
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button">
+                Genre
+            </a>
+
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Drama</a>
+                <a class="dropdown-item" href="#">Comedy</a>
+                <a class="dropdown-item" href="#">Fuck</a>
+            </div>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Is this working?">
+            <button class="btn btn-outline-light my-2 my-sm-3" type="submit">Find</button>
+        </form>
+
+    </div>
+</nav>
 
 @code {
     private bool collapseNavMenu = true;
