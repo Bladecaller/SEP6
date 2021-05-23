@@ -1,33 +1,49 @@
-@page "/movie"
+﻿@page "/movie"
+
+@inject MovieService movieService
+@inject SingletonService searchInput
 
 <h1>Movie</h1>
-<ul>
-    @foreach (MovieItem movie in movies)
-    {
-        <li>@movie.Title</li>
-        <li>Rate : @movie.PersonalRate </li>
-        <li>Rate this : <input type="range" @bind-value=@movie.PersonalRate min="0" max="5"/></li>
-    }
-</ul>
-<button @onclick="AddInitialMovie">Add first movie</button>
-<button @onclick="AddSecondMovie">Add second movie</button>
+
+@if (movies == null)
+{
+    <p><em>Look for a movie via the search bar!</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Release date</th>
+                <th>Original language</th>
+                <th>Popularity</th>
+                <th>Personal rate</th>   
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (MovieItem movieItem in movies){
+                <tr>
+                    <td>@movieItem.Title</td>
+                    <td>@movieItem.release_Date</td>
+                    <td>@movieItem.original_language</td>
+                    <td>@movieItem.popularity</td>
+                    <td>@movieItem.PersonalRate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code {
-    private List<MovieItem> movies = new();
-    private void AddInitialMovie(){
-        MovieItem D = new();
-        D.Title = "Tenacious D";
-        D.release_Date = "2003";
-        D.original_language = "US";
-        D.PersonalRate = 0;
-        movies.Add(D);
-    }
-        private void AddSecondMovie(){
-        MovieItem D = new();
-        D.Title = "Jackass";
-        D.release_Date = "2003";
-        D.original_language = "DK";
-        D.PersonalRate = 0;
-        movies.Add(D);
+    private MovieItem movie;
+    private Root root;
+    private IEnumerable<MovieItem> movies;
+    protected override async Task OnInitializedAsync()
+    {
+        if(searchInput.GetSearchInput() != null ){
+        root = await movieService.SearchForMovies(searchInput.GetSearchInput());
+        movies = root.results;
+        }
     }
 }

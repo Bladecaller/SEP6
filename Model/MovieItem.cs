@@ -4,6 +4,8 @@ public class MovieItem
     public string Title { get; set; }
     public string release_Date {get; set; }
     public string original_language {get; set; }
+
+    public double popularity {get; set;}
     public int PersonalRate {get; set; }
 
 }
