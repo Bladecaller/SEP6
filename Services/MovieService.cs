@@ -14,6 +14,9 @@ public class MovieService : IMovies{
     public async Task<Root> SearchForMovies(string query){
         return await httpClient.GetJsonAsync<Root>("https://api.themoviedb.org/3/search/movie?api_key="+ apiKey +"&query=" + query);
     }
+    public string GetImage(MovieItem item){
+        return "https://image.tmdb.org/t/p/w500" + item.poster_path;
+    }
     public MovieService(HttpClient httpClient){
         this.httpClient = httpClient;
     }

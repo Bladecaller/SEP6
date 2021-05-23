@@ -28,7 +28,7 @@ else
                     <td>@movieItem.release_Date</td>
                     <td>@movieItem.original_language</td>
                     <td>@movieItem.popularity</td>
-                    <td>@movieItem.PersonalRate</td>
+                    <td><img src=@movieItem.fullImagePath alt="alternatetext"></td>
                 </tr>
             }
         </tbody>
@@ -44,6 +44,9 @@ else
         if(searchInput.GetSearchInput() != null ){
         root = await movieService.SearchForMovies(searchInput.GetSearchInput());
         movies = root.results;
+            foreach (MovieItem movie in movies){
+                movie.fullImagePath = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
+            }
         }
     }
 }
