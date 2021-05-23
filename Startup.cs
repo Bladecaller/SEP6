@@ -29,6 +29,10 @@ namespace Blazor_app_tutorial
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<MovieService>();
+            services.AddHttpClient<IMovies, MovieService>(client =>{
+                client.BaseAddress = new Uri("https://api.themoviedb.org/3/movie/");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

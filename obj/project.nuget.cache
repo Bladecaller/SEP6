@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OQL9TXzkKnV/mID5uRgxwxAgrH08n83qWnFw9JbSQeC6FXxvjZePbvtkN4ON7WOqwY2b9P+G4pucJSe/6pDraw==",
+  "dgSpecHash": "u9GHd8Z5UFYsB/blyzteDFKTZP8d8PnXdHwrF6jIKmdjQL+/wMA5+zyBX/qF7CTAiVej+hACEVzZ8jTYQ4p0bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Borislav\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\Borislav\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

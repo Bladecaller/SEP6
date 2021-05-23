@@ -1,13 +1,13 @@
 ﻿@page "/fetchdata"
 
 @using Blazor_app_tutorial.Data
-@inject WeatherForecastService ForecastService
+@inject MovieService movieService
 
-<h1>Weather forecast</h1>
+<h1>Movie</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
 
-@if (forecasts == null)
+@if (movies == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -16,20 +16,19 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Title</th>
+                <th>Release date</th>
+                <th>Original language</th>
+                <th>Personal rate</th>   
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
-            {
+            @foreach (MovieItem movieItem in movies){
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@movieItem.Title</td>
+                    <td>@movieItem.release_Date</td>
+                    <td>@movieItem.original_language</td>
+                    <td>@movieItem.PersonalRate</td>
                 </tr>
             }
         </tbody>
@@ -37,10 +36,13 @@ else
 }
 
 @code {
-    private WeatherForecast[] forecasts;
-
+    private MovieItem movie;
+    private Root root;
+    private IEnumerable<MovieItem> movies;
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        root = await movieService.SearchForMovies("Star wars");
+        movies = root.results;
+        Console.WriteLine(root.results);
     }
 }
