@@ -28,8 +28,8 @@ namespace Blazor_app_tutorial
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<MovieService>();
+            services.AddSingleton<SingletonService>();
             services.AddHttpClient<IMovies, MovieService>(client =>{
                 client.BaseAddress = new Uri("https://api.themoviedb.org/3/movie/");
             });

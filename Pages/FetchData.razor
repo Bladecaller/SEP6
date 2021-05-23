@@ -2,6 +2,7 @@
 
 @using Blazor_app_tutorial.Data
 @inject MovieService movieService
+@inject SingletonService searchInput
 
 <h1>Movie</h1>
 
@@ -41,8 +42,9 @@ else
     private IEnumerable<MovieItem> movies;
     protected override async Task OnInitializedAsync()
     {
-        root = await movieService.SearchForMovies("Star wars");
+        if(searchInput.GetSearchInput() != null ){
+        root = await movieService.SearchForMovies(searchInput.GetSearchInput());
         movies = root.results;
-        Console.WriteLine(root.results);
+        }
     }
 }
