@@ -74,9 +74,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
-      "projectName": "Blazor app tutorial",
-      "projectPath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\Blazor app tutorial.csproj",
+      "projectUniqueName": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\BlazorAppTutorial.csproj",
+      "projectName": "BlazorAppTutorial",
+      "projectPath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\BlazorAppTutorial.csproj",
       "packagesPath": "C:\\Users\\Borislav\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\obj\\",
       "projectStyle": "PackageReference",
