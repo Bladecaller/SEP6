@@ -7,7 +7,7 @@
     {
         <li>@movie.Title</li>
         <li>Rate : @movie.PersonalRate </li>
-        <li>Rate this : <input type="range" @bind-value=@movie.PersonalRate min="0" max="5"/></li>
+        <li>Rate this : <input type="range" @bind-value=@movie.PersonalRate min="0" max="5" /></li>
     }
 </ul>
 <button @onclick="AddInitialMovie">Add first movie</button>
@@ -15,7 +15,8 @@
 
 @code {
     private List<MovieItem> movies = new();
-    private void AddInitialMovie(){
+    private void AddInitialMovie()
+    {
         MovieItem D = new();
         D.Title = "Tenacious D";
         D.release_Date = "2003";
@@ -23,7 +24,8 @@
         D.PersonalRate = 0;
         movies.Add(D);
     }
-        private void AddSecondMovie(){
+    private void AddSecondMovie()
+    {
         MovieItem D = new();
         D.Title = "Jackass";
         D.release_Date = "2003";

@@ -29,8 +29,13 @@ namespace Blazor_app_tutorial
             services.AddServerSideBlazor();
             services.AddSingleton<MovieService>();
             services.AddSingleton<SingletonService>();
+            services.AddSingleton<ActorService>();
             services.AddHttpClient<IMovies, MovieService>(client =>{
                 client.BaseAddress = new Uri("https://api.themoviedb.org/3/movie/");
+            });
+            services.AddHttpClient<IActors, ActorService>(client =>
+            {
+                client.BaseAddress = new Uri("https://api.themoviedb.org/3/person/");
             });
         }
 

@@ -1,0 +1,54 @@
+﻿@page "/actors"
+
+@inject ActorService actorService
+@inject SingletonService actorInput
+
+<h1>ActorSearch</h1>
+
+
+@if (actors == null)
+{
+    <p><em>Search for an actor</em></p>
+
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Popularity</th>
+                @*<th>Image</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ActorItem actorItem in actors)
+            {
+                <tr>
+                    <td>@actorItem.name</td>        
+                    <td>@actorItem.popularity</td>
+                    @*<td>@actorItem.file_path</td>*@
+                    @*<td><img src=@actorItem.file_path alt="alternatetext" style="width:350px;height:400px;"></td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    private ActorItem actor;
+    private Groot groot;
+    private IEnumerable<ActorItem> actors;
+    protected override async Task OnInitializedAsync()
+    {
+        if (actorInput.GetSearchInput() != null)
+        {
+            groot = await actorService.SearchForActors(actorInput.GetSearchInput());
+            actors = groot.results;
+            //foreach (ActorItem actor in actors)
+            //{
+            //    actor.file_path = "" + actor.file_path;
+            //}
+
+        }
+    }
+}

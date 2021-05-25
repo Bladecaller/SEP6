@@ -20,6 +20,11 @@
                <span class="oi oi-list-rich"style="color:red" aria-hidden="true"></span> <span style="color:red">My list</span>
             </NavLink>
         </a>
+        <a
+            <NavLink class="nav-link" href="actors">
+                <span class="oi oi-star" style="color:red" aria-hidden="true"></span> <span style="color:red">ActorSearch</span>
+            </NavLink>
+        </a>
         <div class="dropdown show">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button">
                 Genre
@@ -32,7 +37,7 @@
             </div>
         </div>
         <form class="form-inline my-2 my-lg-0">
-            <input @bind="InputValue"  @bind:event="oninput" class="form-control mr-sm-2" type="search" placeholder="Is this working?">
+            <input @bind="InputValue" @bind:event="oninput" class="form-control mr-sm-2" type="search" placeholder="Is this working?">
             <button @onclick="SetValue" class="btn btn-outline-light my-2 my-sm-3" type="submit">Find</button>
         </form>
     </div>

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Hr0J179+kvjNtJhc8BPRmZ86wD/vPXwcEpbVwBoJXWYOeNkWcIxhFeBZoqgDLylXwRwzUeh32Ao9fpE9QDh7aA==",
+  "dgSpecHash": "sJQT+ZazbEpwd7QHGY/s8wL26+mmv+TKg14+6oWX1l5FrDxvLXfk+IHw26TkHwScTK4nJcsOIKMQ+cklwuzx1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Borislav\\Documents\\Blazor\\Blazor app tutorial\\BlazorAppTutorial.csproj",
+  "projectFilePath": "C:\\Users\\Cata Bastanu\\Documents\\GitHub\\SEP6_FrontEnd\\BlazorAppTutorial.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Borislav\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
-    "C:\\Users\\Borislav\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+    "C:\\Users\\Cata Bastanu\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\Cata Bastanu\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
+    "C:\\Users\\Cata Bastanu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.4\\microsoft.netcore.app.host.win-x64.5.0.4.nupkg.sha512"
   ],
   "logs": []
 }
