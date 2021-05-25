@@ -12,13 +12,24 @@ jobs:
         # uses GitHub's checkout action to checkout code form the master branch
     - uses: actions/checkout@v2
         # sets up .NET Core SDK 5.0.203
+    
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.203
+  
   # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
       run: dotnet publish BlazorAppTutorial.csproj -c Release -o release --nologo
+      
+    # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+    
+    # changes the base-tag in index.html from '/' to 'SEP6_FrontEnd' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to SEP6_FrontEnd
+      run: sed -i 's/<base href="\/" \/>/<base href="\/SEP6_FrontEnd\/" \/>/g' release/Pages/_Host.cshtml
+    
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
