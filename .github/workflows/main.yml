@@ -28,7 +28,7 @@ jobs:
     
     # changes the base-tag in index.html from '/' to 'SEP6_FrontEnd' to match GitHub Pages repository subdirectory
     - name: Change base-tag in index.html from / to SEP6_FrontEnd
-      run: sed -i 's/<base href="\/" \/>/<base href="\/SEP6_FrontEnd\/" \/>/g' release/Pages/_Host.cshtml
+      run: sed -i 's/<base href="\/" \/>/<base href="\/SEP6_FrontEnd\/" \/>/g' release/Pages/Index.razor
     
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
