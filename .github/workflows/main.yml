@@ -25,9 +25,9 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish BlazorAppTutorial.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'BlazorAppTutorial' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to BlazorAppTutorial
-      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorAppTutorial\/" \/>/g' release/wwwroot/index.html
+    # changes the base-tag in index.html from '/' to 'SEP6_FrontEnd' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to SEP6_FrontEnd
+      run: sed -i 's/<base href="\/" \/>/<base href="\/SEP6_FrontEnd\/" \/>/g' release/wwwroot/index.html
     
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
