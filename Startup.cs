@@ -26,12 +26,10 @@ namespace Blazor_app_tutorial
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options=>options.UseNpgsql(Configuration.GetConnectionString("MyConnection")));
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<MovieService>();
             services.AddSingleton<SingletonService>();
-            services.AddScoped<LocalMovieService>();
             services.AddHttpClient<IMovies, MovieService>(client =>{
                 client.BaseAddress = new Uri("https://api.themoviedb.org/3/movie/");
             });
